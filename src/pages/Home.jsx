@@ -7,6 +7,7 @@ import {
   Phone,
   Link,
   Globe,
+  Github,
 } from "lucide-react";
 const Home = () => {
   const Section = ({ title, children, className = "" }) => (
@@ -81,7 +82,24 @@ const Home = () => {
             <Mail size={16} className="mr-2" /> senanuadjabeng1@gmail.com
           </div>
           <div className="flex items-center text-gray-600">
-            <Linkedin size={16} className="mr-2" /> adjabengsenanu
+            <a
+              href="https://www.linkedin.com/in/adjabengsenanu"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center"
+            >
+              <Linkedin size={16} className="mr-2" /> adjabengsenanu
+            </a>
+          </div>
+          <div className="flex items-center text-gray-600">
+            <a
+              href="https://github.com/Senalniho"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center"
+            >
+              <Github size={16} className="mr-2" /> https://github.com/Senalniho
+            </a>
           </div>
           <div className="flex items-center text-gray-600">
             <Calendar size={16} className="mr-2" /> 05.12.1993
