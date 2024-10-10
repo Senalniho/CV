@@ -62,7 +62,7 @@ const Home = () => {
       <header className="text-center mb-12 relative">
         <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-t-lg"></div>
         <img
-          src="src\images\sena.jpeg"
+          src="public\images\sena.jpeg"
           alt="Senanu Adjabeng"
           className="w-40 h-40 rounded-full mx-auto mb-4 border-4 border-white shadow-lg relative z-10"
         />
